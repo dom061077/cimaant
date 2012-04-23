@@ -23,6 +23,7 @@ class Paciente {
 	TipoDocumentoEnum tipoDocumento
 	IvaEnum estadoIva
 	ObraSocial obraSocial
+	Antecedente antecedente
 	
 	
 	
