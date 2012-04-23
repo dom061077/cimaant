@@ -1,0 +1,164 @@
+.editupload{
+	display:none;
+}
+
+.inputlarge{
+	width: 300px;
+}
+
+h1,h2{
+	text-align: center;
+}
+
+.spanlabel{
+		padding: 7px 0px 0px 0px;
+	
+}
+
+.buttons{
+	padding: 15px 0px 0px 0px;
+}
+
+.spanplus{
+	right:10%;
+	position: relative;
+	top: 10%; 
+	padding: 1px;	
+}
+
+.textareastudio{
+	width:500px;
+	height:60px;
+}
+
+.estudiocomp{
+	padding-left: 20px;
+	padding-right:20px;
+	border:solid;
+}
+
+
+/*******************************************************/
+.coolfieldset, .coolfieldset.expanded{
+	border:1px solid #aaa;   
+}
+
+.coolfieldset.collapsed{
+	border:0;
+	border-top:1px solid #aaa;
+}
+
+.coolfieldset legend{
+	padding-left:15px;
+	font-weight:bold;
+	cursor:pointer;
+}
+
+.coolfieldset legend, .coolfieldset.expanded legend{
+	/*width: 16px; height: 16px; */
+	/*background-image: url(../images/jquery/ui-icons_469bdd_256x240.png) ;*/
+	background-position: 0 -192px;
+	
+}
+
+.coolfieldset.collapsed legend{
+	/*width: 16px; height: 16px;*/ 
+	/*background-image: url(../images/jquery/ui-icons_469bdd_256x240.png) ;*/
+	background-position: -16px -192px;
+	
+
+}
+/********************************************************/
+/*para limpiar  la x de los campos de busqueda*/
+
+.delete {
+	float:left;
+	width:10px;
+	height:17px;
+	line-height:17px;
+	margin-right:0px;
+	margin-left:0px;
+	margin-top:6px;
+	padding:0 0px 0 0px;
+	font-family: "Lucida Sans", "Lucida Sans Unicode",sans-serif;
+	font-size:12px;
+	background: #fff;
+	border:solid 1px #d9d9d9;
+	border-top:solid 1px #c0c0c0;
+	border-left:none;
+	-moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px;
+}
+/* Set default state of "X" and hide it */
+.delete .x {
+	color:#A1B9ED;
+	cursor:pointer;
+	/*display:none;*/
+}
+/* Set the hover state of "X" */
+.delete .x:hover {
+	color:#36c;
+}
+
+.lookupfield {
+	float:left;
+	width:300px;
+	height:27px;
+	line-height:27px;
+	text-indent:10px;
+	font-family:arial, sans-serif;
+	font-size:1em;
+	color:#333;
+	background: #fff;
+	border:solid 1px #d9d9d9;
+	border-top:solid 1px #c0c0c0;
+	border-right:none;
+}
+
+/**********************************************table design*********/
+/* TABLES */
+
+.prescripciones.table thead th {
+    background: none repeat scroll 0 0 #C3D9FF;
+}
+
+.prescripcion.table {
+    /*border: 1px solid #ccc;*/
+    width: 100%
+}
+.prescripcion.table tr {
+    border: 0;
+}
+.prescripcion.table td, th {
+    font: 11px verdana, arial, helvetica, sans-serif;
+    line-height: 12px;
+    padding: 5px 6px;
+    text-align: left;
+    vertical-align: top;
+}
+.prescripcion.table th {
+    background: #fff url(../images/skin/shadow.jpg);
+    color: #666;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 17px;
+    padding: 2px 6px;
+}
+.prescripcion.table th a:link, th a:visited, th a:hover {
+    color: #333;
+    display: block;
+    font-size: 10px;
+    text-decoration: none;
+    width: 100%;
+}
+.prescripcion.table th.asc a, th.desc a {
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.prescripcion.table th.asc a {
+    background-image: url(../images/skin/sorted_asc.gif);
+}
+.prescripcion.table th.desc a {
+    background-image: url(../images/skin/sorted_desc.gif);
+}
+
+
