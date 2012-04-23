@@ -2,6 +2,7 @@ package com.medfire
 
 class Antecedente {
 
+	Paciente paciente
 	String t1
 	boolean t1Check = false
 	String t2
@@ -49,6 +50,7 @@ class Antecedente {
 	String antecedenteFamiliar
 	
 	
+	static belongsTo = [paciente:Paciente]
 
 	
 	
